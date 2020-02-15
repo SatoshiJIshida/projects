@@ -1,0 +1,53 @@
+(define (domain guitar)
+ (:requirements :typing :fluents :durative-actions :equality)
+ (:types note fret string)
+
+(:predicates
+		(music-note ?n - note)
+		(fret-note ?f - fret)
+		(guitar-string ?s - string)
+		(linked ?n ?f - fret ?s - string)
+		(at-fret ?n - fret ?f - string)
+		(at-note-n ?n - fret ?f - string)
+		(at-note ?f - fret)
+)
+
+(:functions (move ?n - fret ?f - fret))
+
+(:durative-action hand1-move-up-fretboard
+		:parameters (?n ?f - fret ?s - string)
+		:duration   (= ?duration (move ?n ?f))
+		:condition  (and (at start (guitar-string ?s))
+					(at start (at-note-n ?n ?s))
+					(at start (at-note ?n))
+					(over all(linked ?n ?f ?s)))
+		:effect		(and (at end (at-note ?f))
+					(at start (not (at-note ?n)))
+					(at end (at-note-n ?f ?s))
+					(at start (not (at-note-n ?n ?s))))
+)
+
+(:durative-action hand1-move-down-fretboard
+		:parameters (?n ?f - fret ?s - string)
+		:duration   (= ?duration (move ?f ?n))
+		:condition  (and (at start (guitar-string ?s))
+					(at start (at-note-n ?n ?s))
+					(at start (at-note ?n))
+					(over all(linked ?f ?n ?s)))
+		:effect		(and (at end (at-note ?f))
+					(at start (not (at-note ?n)))
+					(at end (at-note-n ?f ?s))
+					(at start (not (at-note-n ?n ?s))))
+)
+
+(:durative-action change-string
+		:parameters (?n - fret ?f ?s - string)
+		:duration   (= ?duration 0.5)
+		:condition  (and (at start (at-fret ?n ?f))
+					(at start (at-fret ?n ?s))
+					(at start (at-note ?n))
+					(at start (at-note-n ?n ?f)))
+		:effect		(and (at end (guitar-string ?s))
+					(at start (not (at-note-n ?n ?f)))
+					(at end (at-note-n ?n ?s))))
+)
