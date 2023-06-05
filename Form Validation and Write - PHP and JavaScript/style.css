@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Verdana;
+    font-size: 0.75rem;
+}
+
+h3 {
+    display: inline-block;
+    padding-right: 1.2rem;
+}
+
+input {
+    display: block;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+button {
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    margin-top: 0;
+}
+
+#container {
+    position: relative;
+    background-color: rgb(225, 233, 247);
+    border: 0.1rem solid #000000;
+    max-width: 17.7rem;
+    padding: 0.5rem 0rem 0rem 1rem;
+}
+
+#topBar {
+    position: relative;
+    display: inline-block;
+}
+
+.form {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.line {
+    border-bottom: 0.1rem solid #000000;
+    margin: 0.3rem 8.55rem 1.6rem 0rem;
+}

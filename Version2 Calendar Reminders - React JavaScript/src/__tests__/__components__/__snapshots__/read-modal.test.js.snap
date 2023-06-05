@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read Modal Component ReadModal should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Read Modal Component ReadModal2 should render correctly 1`] = `ShallowWrapper {}`;

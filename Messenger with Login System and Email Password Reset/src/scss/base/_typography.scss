@@ -1,0 +1,80 @@
+// Typography.
+h1,
+h2,
+h3,
+h4,
+h {
+  font-family: map-deep-get($headings, "fonts", "headings-font-family");
+  color: map-deep-get($headings, "colors", "headings-color");
+  letter-spacing: 0.05rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: map-deep-get($headings, "sizes", "h1-font-size");
+}
+
+h2 {
+  font-size: map-deep-get($headings, "sizes", "h2-font-size");
+}
+
+h3 {
+  font-size: map-deep-get($headings, "sizes", "h3-font-size");
+}
+
+h4 {
+  font-size: map-deep-get($headings, "sizes", "h4-font-size");
+}
+
+p {
+  font-family: map-deep-get($base, "fonts", "base-font-family");
+  font-size: map-deep-get($base, "sizes", "base-font-size-1");
+  color: map-deep-get($base, "colors", "base-font-color-1");
+}
+
+label {
+  display: block;
+  font-family: map-deep-get($base, "fonts", "base-font-family");
+  font-size: map-deep-get($base, "sizes", "base-font-size-1");
+  color: map-deep-get($base, "colors", "base-font-color-1");
+  padding: 0rem;
+}
+
+input {
+  display: block;
+  font-family: map-deep-get($base, "fonts", "base-font-family");
+  font-size: map-deep-get($base, "sizes", "base-font-size-1");
+  color: map-deep-get($base, "colors", "base-font-color-2");
+  margin: 0rem 0rem 0.45rem 0rem;
+  padding: 0.2rem;
+  min-width: 12rem;
+}
+
+.errorText {
+  font-family: map-deep-get($base, "fonts", "base-font-family");
+  font-size: map-deep-get($base, "sizes", "base-font-size-2");
+  color: map-deep-get($base, "colors", "base-font-color-3");
+  padding: 0rem 0rem 0.25rem 0rem;
+}
+
+.resetText {
+  font-family: map-deep-get($base, "fonts", "base-font-family");
+  font-size: map-deep-get($base, "sizes", "base-font-size-1");
+  color: map-deep-get($base, "colors", "base-font-color-1");
+  padding: 0rem 0rem 0.25rem 0rem;
+}
+
+#inputText {
+  position: absolute;
+  display: inline-block;
+  min-width: 27.1rem;
+  padding: 0.5rem 0.7rem;
+  line-height: 100%;
+  border: none;
+  outline: 1px solid $black;
+  margin: 0.3rem;
+}
+
+.displayId {
+  color: map-deep-get($headings, "colors", "headings-color");
+}

@@ -1,0 +1,219 @@
+// month title button for year view.
+.monthTitle {
+  font: #{map-get($base, "base-font-size2")}/#{map-get(
+      $base,
+      "base-line-height2"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color3")};
+  font-weight: bold;
+  padding: 2px 8px 2px 8px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  border-style: none;
+  background-color: #{map-get($button, "btn-bg2")};
+
+  &:hover {
+    background: #{map-get($button, "btn-color-hover")};
+  }
+}
+
+// date number button for year view.
+.dateBtn {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  margin: 0.5px;
+  width: #{map-get($button, "btn-width1")};
+  height: #{map-get($button, "btn-height1")};
+  border-style: none;
+  cursor: pointer;
+  background-color: #{map-get($button, "btn-bg2")};
+
+  &:hover {
+    background: #{map-get($button, "btn-color-hover")};
+  }
+}
+
+// colour button for year view.
+.colourBtn {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  margin: 0.5px;
+  width: #{map-get($button, "btn-width1")};
+  height: #{map-get($button, "btn-height1")};
+  border-style: none;
+  cursor: pointer;
+  background-color: #{map-get($button, "btn-bg1")};
+}
+
+// disabled button for year view.
+.disabled {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color4")};
+  margin: 0.5px;
+  width: #{map-get($button, "btn-width1")};
+  height: #{map-get($button, "btn-height1")};
+  border-style: none;
+  pointer-events: none;
+  background-color: #{map-get($button, "btn-bg3")};
+}
+
+// MONTH VIEW
+// month title button for single month view.
+.monthTitle2 {
+  @include font-smoothing;
+  font: #{map-get($headings, "sizes", "h2-font-size")}/#{map-get(
+      $base,
+      "base-line-height2"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color3")};
+  border-style: none;
+  background-color: #{map-get($button, "btn-bg4")};
+}
+
+// date number button for single month view.
+.dateBtn2 {
+  font: #{map-get($base, "base-font-size1")} #{map-get($base, "base-font")};
+  margin: 0.5px;
+  width: #{map-get($button, "btn-width2")};
+  height: #{map-get($button, "btn-height2")};
+  border-style: none;
+  cursor: pointer;
+  background-color: #{map-get($button, "btn-bg2")};
+
+  &:hover {
+    background: #{map-get($button, "btn-color-hover")};
+  }
+}
+
+// colour button for single month view.
+.colourBtn2 {
+  font: #{map-get($base, "base-font-size1")} #{map-get($base, "base-font")};
+  margin: 0.5px;
+  width: #{map-get($button, "btn-width2")};
+  height: #{map-get($button, "btn-height2")};
+  border-style: none;
+  cursor: pointer;
+  background-color: #{map-get($button, "btn-bg1")};
+}
+
+// disabled button for single month view.
+.disabled2 {
+  font: #{map-get($base, "base-font-size1")} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color4")};
+  margin: 0.5px;
+  width: #{map-get($button, "btn-width2")};
+  height: #{map-get($button, "btn-height2")};
+  border-style: none;
+  pointer-events: none;
+  background-color: #{map-get($button, "btn-bg3")};
+}
+
+// return button in month view.
+.retBtn2 {
+  font: #{map-get($base, "base-font-size1")} #{map-get($base, "base-font")};
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+// Media Queries //
+// month title button for single month view.
+@media only screen and (max-width: 1323px) {
+  .monthTitle2 {
+    font: #{map-get($headings, "sizes", "h3-font-size")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+  }
+}
+// month title button for single month view.
+@media only screen and (max-width: 1043px) {
+  .monthTitle2 {
+    font: #{map-get($headings, "sizes", "h4-font-size")}/#{map-get(
+        $base,
+        "base-line-height3"
+      )} #{map-get($base, "base-font")};
+  }
+}
+
+// date number button for single month view.
+@media only screen and (max-width: 1323px) {
+  .dateBtn2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 140px;
+    height: 70px;
+  }
+}
+// date number button for single month view.
+@media only screen and (max-width: 1043px) {
+  .dateBtn2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 110px;
+    height: 60px;
+  }
+}
+// date number button for single month view.
+@media only screen and (max-width: 835px) {
+  .dateBtn2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 62px;
+    height: 40px;
+  }
+}
+
+// colour button for single month view.
+@media only screen and (max-width: 1323px) {
+  .colourBtn2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 140px;
+    height: 70px;
+  }
+}
+// colour button for single month view.
+@media only screen and (max-width: 1043px) {
+  .colourBtn2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 110px;
+    height: 60px;
+  }
+}
+// colour button for single month view.
+@media only screen and (max-width: 835px) {
+  .colourBtn2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 62px;
+    height: 40px;
+  }
+}
+
+// disabled button for single month view.
+@media only screen and (max-width: 1323px) {
+  .disabled2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 140px;
+    height: 70px;
+  }
+}
+// disabled button for single month view.
+@media only screen and (max-width: 1043px) {
+  .disabled2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 110px;
+    height: 60px;
+  }
+}
+// disabled button for single month view.
+@media only screen and (max-width: 835px) {
+  .disabled2 {
+    font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+    width: 62px;
+    height: 40px;
+  }
+}
+
+// return button in month view.
+@media only screen and (max-width: 1323px) {
+  .retBtn2 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+  }
+}

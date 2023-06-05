@@ -1,0 +1,88 @@
+// For common structure.
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innerContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#signup-container {
+  display: flex;
+}
+
+.loading-spin-container {
+  margin-top: 0.4rem;
+  margin-left: 0.25rem;
+}
+
+#chatContainer {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.lines {
+  min-height: 1.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0rem 0.5rem 1rem $transparentBubble;
+}
+
+.date {
+  margin-bottom: 2rem;
+  color: map-deep-get($headings, "colors", "headings-color");
+}
+
+.chatGroup {
+  max-width: 33.45rem;
+  overflow-wrap: break-word;
+}
+
+.display {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+#emojiModal {
+  display: inline-block;
+  max-width: 30rem;
+  padding-bottom: 0.5rem;
+  margin-top: -0.5rem;
+}
+
+.emojiContainer {
+  display: inline-block;
+  max-height: 1rem;
+  margin-left: 0.1rem;
+}
+
+#submitContainer {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+#password {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.bi-eye-slash {
+  &:before {
+    vertical-align: -0.25em;
+    cursor: pointer;
+  }
+}
+
+.bi-eye {
+  &:before {
+    vertical-align: -0.25em;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,58 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+// Fonts
+$base-font: "Roboto", Arial;
+
+// Colours
+$white: #ffff;
+$black: #000;
+$grey: rgb(68, 59, 59);
+$transparentBG: #d0d0d083;
+$transparentBubble: #d0d0d04a;
+$paleGreen: #5ca191c7;
+$darkGreen: rgb(57, 122, 85);
+$greenTransparent: #5ca1913c;
+$greenHover: #5ca19130;
+$red: #ff0000c7;
+$green: #20ba22;
+
+// Headers
+$headings: (
+  "fonts": (
+    "headings-font-family": $base-font,
+  ),
+  "sizes": (
+    "h1-font-size": 4rem,
+    "h2-font-size": 3rem,
+    "h3-font-size": 2rem,
+    "h4-font-size": 1rem,
+  ),
+  "colors": (
+    "headings-color": $paleGreen,
+  ),
+);
+
+// Body
+$base: (
+  "fonts": (
+    "base-font-family": $base-font,
+  ),
+  "sizes": (
+    "base-font-size-1": 0.8rem,
+    "base-font-size-2": 0.7rem,
+    "base-font-size-3": 0.6rem,
+  ),
+  "colors": (
+    "base-font-color-1": $black,
+    "base-font-color-2": $grey,
+    "base-font-color-3": $red,
+    "base-font-color-4": $green,
+  ),
+);
+
+// Buttons
+$button: (
+  "btn-color-hover": $greenHover,
+  "btn-width": 5.7rem,
+);

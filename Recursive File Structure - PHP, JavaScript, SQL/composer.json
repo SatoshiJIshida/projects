@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+
+    "autoload": {
+        "files": ["model/read.php", "model/search.php", "model/write.php"]
+    }
+}

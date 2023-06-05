@@ -1,0 +1,325 @@
+// Typography
+.h1,
+.h2,
+.h3,
+.h4,
+.h {
+  font-family: map-deep-get($headings, "fonts", "headings-font-family");
+  color: map-deep-get($headings, "fonts", "headings-color");
+  letter-spacing: 0.5px;
+}
+
+.h1 {
+  font-size: map-deep-get($headings, "sizes", "h1-font-size");
+}
+
+.h2 {
+  font-size: map-deep-get($headings, "sizes", "h2-font-size");
+}
+
+.h3 {
+  font-size: map-deep-get($headings, "sizes", "h3-font-size");
+}
+
+.h4 {
+  font-size: map-deep-get($headings, "sizes", "h4-font-size");
+}
+
+// reminder title for year view.
+.reminderTitle {
+  font: #{map-get($base, "base-font-size1")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color3")};
+  padding-left: 23px;
+  padding-top: 15px;
+}
+
+// reminder title for month view.
+.reminderTitle2 {
+  font: #{map-get($base, "base-font-size1")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color3")};
+  padding-left: 23px;
+  padding-top: 15px;
+}
+
+// day letters for year view.
+.dayLetter {
+  font: #{map-get($base, "base-font-size2")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  letter-spacing: 22.5px;
+  margin-left: 9px;
+}
+
+// day letters for single month view.
+.dayLetterTwo1 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 69px;
+  margin-bottom: 12px;
+}
+.dayLetterTwo2 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 138px;
+  margin-bottom: 12px;
+}
+.dayLetterTwo3 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 140px;
+  margin-bottom: 12px;
+}
+.dayLetterTwo4 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 137px;
+  margin-bottom: 12px;
+}
+.dayLetterTwo5 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 146px;
+  margin-bottom: 12px;
+}
+.dayLetterTwo6 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 148px;
+  margin-bottom: 12px;
+}
+.dayLetterTwo7 {
+  font: #{map-deep-get($headings, "sizes", "h4-font-size")}/#{map-get(
+      $base,
+      "base-line-height1"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color1")};
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 142px;
+  margin-bottom: 12px;
+}
+
+// Media Queries //
+// day letters for single month view.
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo1 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 54px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo2 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 109px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo3 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 111px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo4 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 108px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo5 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 115px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo6 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 117px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo7 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 112px;
+  }
+}
+
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo1 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo2 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 78px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo3 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo4 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 79px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo5 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 85px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo6 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 87px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo7 {
+    font: #{map-get($base, "base-font-size2")}/#{map-get(
+        $base,
+        "base-line-height2"
+      )} #{map-get($base, "base-font")};
+    margin-left: 82px;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo1 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 15.5px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo2 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 31px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo3 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 32px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo4 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo5 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 38px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo6 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 38px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo7 {
+    font: #{map-get($base, "base-font-size2")}#{map-get($base, "base-font")};
+    margin-left: 35px;
+  }
+}
+
+// reminder title for year view.
+@media only screen and (max-width: 630px) {
+  .reminderTitle {
+    padding-top: 26px;
+  }
+}
+
+// reminder title for month view.
+@media only screen and (max-width: 835px) {
+  .reminderTitle2 {
+    padding-left: 18px;
+  }
+}

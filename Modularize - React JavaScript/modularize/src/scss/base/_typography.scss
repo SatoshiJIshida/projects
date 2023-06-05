@@ -1,0 +1,46 @@
+/// Based on Language Sass from source https://sass-lang.com/documentation
+/// Typography
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h {
+  font-family: map-deep-get($headings, "fonts", "headings-font-family");
+  color: map-deep-get($headings, "fonts", "headings-color");
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.h1 {
+  font-size: map-deep-get($headings, "sizes", "h1-font-size");
+}
+
+.h2 {
+  font-size: map-deep-get($headings, "sizes", "h2-font-size");
+}
+
+.h3 {
+  font-size: map-deep-get($headings, "sizes", "h3-font-size");
+}
+
+.h4 {
+  font-size: map-deep-get($headings, "sizes", "h4-font-size");
+}
+
+.h5 {
+  font-size: map-deep-get($headings, "sizes", "h5-font-size");
+}
+
+.h6 {
+  font-size: map-deep-get($headings, "sizes", "h6-font-size");
+}
+
+.text {
+  font: #{map-get($base, "base-font-size")}/#{map-get(
+      $base,
+      "base-line-height"
+    )} #{map-get($base, "base-font")};
+  color: #{map-get($base, "base-text-color")};
+}

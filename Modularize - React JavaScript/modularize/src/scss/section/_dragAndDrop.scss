@@ -1,0 +1,60 @@
+/// DragAndDrop style
+.dropZone-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 260px;
+}
+
+.dropZone-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 265px;
+}
+
+.dropZone-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 265px;
+}
+
+.dropZone1-bg {
+  background-image: url(#{$imgPath}/level1-lines.png);
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-position: 255px 8px;
+}
+
+.dropZone2-bg {
+  background-image: url(#{$imgPath}/level2-lines.png);
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-position: 256px 4px;
+}
+
+.dropZone3-bg {
+  background-image: url(#{$imgPath}/level3-lines.png);
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-position: 245px 7px;
+}
+
+.dropZone {
+  display: flex;
+  flex: 0 0 25%;
+  min-height: 170px;
+  min-width: 300px;
+  padding: 0px; /* inside spacing for container. */
+  margin: 7px; /* outside spacing for container. */
+  /// border: 1px dashed #41b7bb;
+}
+
+.itemList {
+  display: flex;
+  min-width: 100%; /* Important, needed for items to enter drop zones! */
+}

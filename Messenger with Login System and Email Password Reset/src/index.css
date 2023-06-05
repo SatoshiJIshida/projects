@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+h1,
+h2,
+h3,
+h4,
+h {
+  font-family: "Roboto", Arial;
+  color: rgba(92, 161, 145, 0.7803921569);
+  letter-spacing: 0.05rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-family: "Roboto", Arial;
+  font-size: 0.8rem;
+  color: #000;
+}
+
+label {
+  display: block;
+  font-family: "Roboto", Arial;
+  font-size: 0.8rem;
+  color: #000;
+  padding: 0rem;
+}
+
+input {
+  display: block;
+  font-family: "Roboto", Arial;
+  font-size: 0.8rem;
+  color: rgb(68, 59, 59);
+  margin: 0rem 0rem 0.45rem 0rem;
+  padding: 0.2rem;
+  min-width: 12rem;
+}
+
+.errorText {
+  font-family: "Roboto", Arial;
+  font-size: 0.7rem;
+  color: rgba(255, 0, 0, 0.7803921569);
+  padding: 0rem 0rem 0.25rem 0rem;
+}
+
+.resetText {
+  font-family: "Roboto", Arial;
+  font-size: 0.8rem;
+  color: #000;
+  padding: 0rem 0rem 0.25rem 0rem;
+}
+
+#inputText {
+  position: absolute;
+  display: inline-block;
+  min-width: 27.1rem;
+  padding: 0.5rem 0.7rem;
+  line-height: 100%;
+  border: none;
+  outline: 1px solid #000;
+  margin: 0.3rem;
+}
+
+.displayId {
+  color: rgba(92, 161, 145, 0.7803921569);
+}
+
+button {
+  min-width: 5.7rem;
+  border: none;
+  border-radius: 1rem;
+  margin: 0.25rem 0rem 0.25rem 0rem;
+  padding: 0.35rem 1rem 0.35rem 1rem;
+  background: rgba(92, 161, 145, 0.2352941176);
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(92, 161, 145, 0.1882352941);
+}
+
+#request {
+  width: 12.4rem;
+  border: 0;
+  background: none;
+  text-align: left;
+  padding: 0;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#request:hover {
+  color: #000;
+}
+
+#signout {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 28.5rem;
+}
+
+#deleteAll {
+  margin-left: 24.6rem;
+}
+
+#delete {
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+}
+
+#submit {
+  position: absolute;
+  background: none;
+  color: rgb(57, 122, 85);
+  margin-left: 28.5rem;
+  min-width: 0.9rem;
+  padding: 0.55rem 0.9rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#emojis {
+  position: relative;
+  display: inline-block;
+  min-width: 0rem;
+  border: none;
+  background: none;
+  bottom: 0.48rem;
+  cursor: pointer;
+}
+
+.openEmojis {
+  margin-top: 1rem;
+  width: 1.6rem;
+}
+
+.opened {
+  padding-left: 0.35rem;
+  margin-top: 1rem;
+  margin-bottom: 0.55rem;
+}
+
+.emojiBtn {
+  background: none;
+  min-width: 0.75rem;
+  border: none;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innerContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#signup-container {
+  display: flex;
+}
+
+.loading-spin-container {
+  margin-top: 0.4rem;
+  margin-left: 0.25rem;
+}
+
+#chatContainer {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.lines {
+  min-height: 1.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0rem 0.5rem 1rem rgba(208, 208, 208, 0.2901960784);
+}
+
+.date {
+  margin-bottom: 2rem;
+  color: rgba(92, 161, 145, 0.7803921569);
+}
+
+.chatGroup {
+  max-width: 33.45rem;
+  overflow-wrap: break-word;
+}
+
+.display {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+#emojiModal {
+  display: inline-block;
+  max-width: 30rem;
+  padding-bottom: 0.5rem;
+  margin-top: -0.5rem;
+}
+
+.emojiContainer {
+  display: inline-block;
+  max-height: 1rem;
+  margin-left: 0.1rem;
+}
+
+#submitContainer {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+#password {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.bi-eye-slash:before {
+  vertical-align: -0.25em;
+  cursor: pointer;
+}
+
+.bi-eye:before {
+  vertical-align: -0.25em;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spin {
+  width: 100%;
+  height: 35%;
+  border: 5px solid #d8cfcf;
+  border-top: 5px solid #383636;
+  border-radius: 50%;
+  margin-top: 0.021rem;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes slideUp {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+#moveUp {
+  animation-duration: 0.3s;
+  animation-name: slideUp;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,75 @@
+/// Based on Language Sass from source https://sass-lang.com/documentation
+/// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+/// Fonts
+$base-font: "Roboto", Arial;
+
+/// Color
+$white: #ffff;
+$black: #000;
+$teal: #3d7e80;
+$turquoise: #3b9ea1;
+$clear: #e7fdfb77;
+$grey: rgba(0, 0, 0, 0.486);
+$charcoal: rgba(0, 0, 0, 0.678);
+
+/// Headers
+$headings: (
+  "sizes": (
+    "h1-font-size": 50px,
+    "h2-font-size": 35px,
+    "h3-font-size": 25px,
+    "h4-font-size": 20px,
+    "h5-font-size": 16px,
+    "h6-font-size": 10px,
+  ),
+  "fonts": (
+    "headings-font-family": $base-font,
+    "headings-color": $teal,
+  ),
+);
+
+/// Body
+$base: (
+  "base-font": $base-font,
+  "base-text-color": $teal,
+  "base-font-size": 16px,
+  "base-line-height": 24px,
+);
+
+$button: (
+  "btn-color": $charcoal,
+  "btn-color-border": $grey,
+  "btn-color-hover": $clear,
+  "btn-font-size": 20px,
+  "btn-line-height": 10px,
+  "btn-width": 400px,
+  "btn-width-two": 150px,
+  "btn-radius": 2px,
+  "btn-background":
+    linear-gradient(
+      to right,
+      rgba(129, 246, 248, 0.295),
+      rgba(255, 254, 202, 0.336)
+    ),
+);
+
+$tip: (
+  "tip-color": $teal,
+  "tip-color-border": #17d8cb,
+  "tip-color-hover": #e0e8e877,
+  "tip-font-size": 14px,
+  "tip-line-height": 12px,
+  "tip-width": 75px,
+  "tip-radius": 2px,
+);
+
+$modal: (
+  "modal-color": $white,
+  "modal-background": $white,
+  "modal-color-border": #17d8cb,
+  "modal-close": $teal,
+);
+
+$imgPath: "../img/assets";

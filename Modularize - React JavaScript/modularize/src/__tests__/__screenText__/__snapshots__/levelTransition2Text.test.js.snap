@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Level Transition Text (2) should render correctly 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Component Notification should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Notification Component Notification2 should render correctly 1`] = `ShallowWrapper {}`;

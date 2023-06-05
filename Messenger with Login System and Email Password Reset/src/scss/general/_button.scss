@@ -1,0 +1,83 @@
+// Buttons.
+button {
+  min-width: map-get($button, "btn-width");
+  border: none;
+  border-radius: 1rem;
+  margin: 0.25rem 0rem 0.25rem 0rem;
+  padding: 0.35rem 1rem 0.35rem 1rem;
+  background: $greenTransparent;
+  cursor: pointer;
+  &:hover {
+    background: map-get($button, "btn-color-hover");
+  }
+}
+
+#request {
+  width: 12.4rem;
+  border: 0;
+  background: none;
+  text-align: left;
+  padding: 0;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  &:hover {
+    color: $black;
+  }
+}
+
+#signout {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 28.5rem;
+}
+
+#deleteAll {
+  margin-left: 24.6rem;
+}
+
+#delete {
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+}
+
+#submit {
+  position: absolute;
+  background: none;
+  color: $darkGreen;
+  margin-left: 28.5rem;
+  min-width: 0.9rem;
+  padding: 0.55rem 0.9rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#emojis {
+  position: relative;
+  display: inline-block;
+  min-width: 0rem;
+  border: none;
+  background: none;
+  bottom: 0.48rem;
+  cursor: pointer;
+}
+
+.openEmojis {
+  margin-top: 1rem;
+  width: 1.6rem;
+}
+
+.opened {
+  padding-left: 0.35rem;
+  margin-top: 1rem;
+  margin-bottom: 0.55rem;
+}
+
+.emojiBtn {
+  background: none;
+  min-width: 0.75rem;
+  border: none;
+  padding: 0.2rem;
+  cursor: pointer;
+}

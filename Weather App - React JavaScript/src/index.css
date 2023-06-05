@@ -1,0 +1,86 @@
+body {
+  margin-left: 10px;
+  font-family: "Arial", "verdana";
+  font-size: 16px;
+  line-height: 8px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.parentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 475px;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dayContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forecastContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.dayIcon {
+  margin-top: 50px;
+  padding-right: 20px;
+}
+
+.forecastIcon {
+  padding-top: 25px;
+  padding-bottom: 16px;
+  padding-right: 50px;
+}
+
+.dayData {
+  padding: 1px;
+}
+
+.forecastData {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 49px;
+}
+
+.dayTemp {
+  margin-top: 50px;
+}
+
+.forecastTemp {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.btnDay {
+  margin-top: 5px;
+}
+
+.btnForecast {
+  margin-top: 5px;
+}
+
+.daysContainer {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.days {
+  padding-bottom: 32px;
+  padding-right: 24px;
+}
+
+.hide {
+  display: none;
+}

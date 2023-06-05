@@ -1,0 +1,783 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.h1,
+.h2,
+.h3,
+.h4,
+.h {
+  font-family: "Roboto", Arial;
+  color: #5ca191c7;
+  letter-spacing: 0.5px;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.h2 {
+  font-size: 35px;
+}
+
+.h3 {
+  font-size: 25px;
+}
+
+.h4 {
+  font-size: 20px;
+}
+
+.reminderTitle {
+  font: 16px/24px Roboto, Arial;
+  color: #5ca191c7;
+  padding-left: 23px;
+  padding-top: 15px;
+}
+
+.reminderTitle2 {
+  font: 16px/24px Roboto, Arial;
+  color: #5ca191c7;
+  padding-left: 23px;
+  padding-top: 15px;
+}
+
+.dayLetter {
+  font: 14px/24px Roboto, Arial;
+  color: #000;
+  letter-spacing: 22.5px;
+  margin-left: 9px;
+}
+
+.dayLetterTwo1 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 69px;
+  margin-bottom: 12px;
+}
+
+.dayLetterTwo2 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 138px;
+  margin-bottom: 12px;
+}
+
+.dayLetterTwo3 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 140px;
+  margin-bottom: 12px;
+}
+
+.dayLetterTwo4 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 137px;
+  margin-bottom: 12px;
+}
+
+.dayLetterTwo5 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 146px;
+  margin-bottom: 12px;
+}
+
+.dayLetterTwo6 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 148px;
+  margin-bottom: 12px;
+}
+
+.dayLetterTwo7 {
+  font: 20px/24px Roboto, Arial;
+  color: #000;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 142px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo1 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 54px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo2 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 109px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo3 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 111px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo4 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 108px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo5 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 115px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo6 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 117px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dayLetterTwo7 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 112px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo1 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo2 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 78px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo3 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo4 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 79px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo5 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 85px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo6 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 87px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dayLetterTwo7 {
+    font: 14px/20px Roboto, Arial;
+    margin-left: 82px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo1 {
+    font: 14pxRoboto, Arial;
+    margin-left: 15.5px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo2 {
+    font: 14pxRoboto, Arial;
+    margin-left: 31px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo3 {
+    font: 14pxRoboto, Arial;
+    margin-left: 32px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo4 {
+    font: 14pxRoboto, Arial;
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo5 {
+    font: 14pxRoboto, Arial;
+    margin-left: 38px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo6 {
+    font: 14pxRoboto, Arial;
+    margin-left: 38px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dayLetterTwo7 {
+    font: 14pxRoboto, Arial;
+    margin-left: 35px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .reminderTitle {
+    padding-top: 26px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .reminderTitle2 {
+    padding-left: 18px;
+  }
+}
+.monthTitle {
+  font: 14px/20px Roboto, Arial;
+  color: #5ca191c7;
+  font-weight: bold;
+  padding: 2px 8px 2px 8px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  border-style: none;
+  background-color: rgba(232, 232, 232, 0.637);
+}
+.monthTitle:hover {
+  background: #d0d0d083;
+}
+
+.dateBtn {
+  font: 14px Roboto, Arial;
+  margin: 0.5px;
+  width: 31px;
+  height: 25px;
+  border-style: none;
+  cursor: pointer;
+  background-color: rgba(232, 232, 232, 0.637);
+}
+.dateBtn:hover {
+  background: #d0d0d083;
+}
+
+.colourBtn {
+  font: 14px Roboto, Arial;
+  margin: 0.5px;
+  width: 31px;
+  height: 25px;
+  border-style: none;
+  cursor: pointer;
+  background-color: rgba(10, 233, 10, 0.858);
+}
+
+.disabled {
+  font: 14px Roboto, Arial;
+  color: #bbbbbb77;
+  margin: 0.5px;
+  width: 31px;
+  height: 25px;
+  border-style: none;
+  pointer-events: none;
+  background-color: rgba(216, 216, 216, 0.637);
+}
+
+.monthTitle2 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: 35px/20px Roboto, Arial;
+  color: #5ca191c7;
+  border-style: none;
+  background-color: #ffff;
+}
+
+.dateBtn2 {
+  font: 16px Roboto, Arial;
+  margin: 0.5px;
+  width: 180px;
+  height: 90px;
+  border-style: none;
+  cursor: pointer;
+  background-color: rgba(232, 232, 232, 0.637);
+}
+.dateBtn2:hover {
+  background: #d0d0d083;
+}
+
+.colourBtn2 {
+  font: 16px Roboto, Arial;
+  margin: 0.5px;
+  width: 180px;
+  height: 90px;
+  border-style: none;
+  cursor: pointer;
+  background-color: rgba(10, 233, 10, 0.858);
+}
+
+.disabled2 {
+  font: 16px Roboto, Arial;
+  color: #bbbbbb77;
+  margin: 0.5px;
+  width: 180px;
+  height: 90px;
+  border-style: none;
+  pointer-events: none;
+  background-color: rgba(216, 216, 216, 0.637);
+}
+
+.retBtn2 {
+  font: 16px Roboto, Arial;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1323px) {
+  .monthTitle2 {
+    font: 25px/20px Roboto, Arial;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .monthTitle2 {
+    font: 20px/10px Roboto, Arial;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .dateBtn2 {
+    font: 14px Roboto, Arial;
+    width: 140px;
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .dateBtn2 {
+    font: 14px Roboto, Arial;
+    width: 110px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .dateBtn2 {
+    font: 14px Roboto, Arial;
+    width: 62px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .colourBtn2 {
+    font: 14px Roboto, Arial;
+    width: 140px;
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .colourBtn2 {
+    font: 14px Roboto, Arial;
+    width: 110px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .colourBtn2 {
+    font: 14px Roboto, Arial;
+    width: 62px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .disabled2 {
+    font: 14px Roboto, Arial;
+    width: 140px;
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .disabled2 {
+    font: 14px Roboto, Arial;
+    width: 110px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .disabled2 {
+    font: 14px Roboto, Arial;
+    width: 62px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .retBtn2 {
+    font: 14px/20px Roboto, Arial;
+  }
+}
+.titleContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  padding: 10px 0px 0px 94px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  max-width: 1100px;
+  padding: 10px 0px 0px 95px;
+}
+
+.monthContainer {
+  padding: 5px 10px 10px 10px;
+}
+
+.daysContainer {
+  min-width: 230px;
+  max-width: 230px;
+}
+
+.singleMonthOuter {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.singleMonthContainer {
+  margin-top: 30px;
+}
+
+.daysContainer2 {
+  min-width: 1400px;
+  max-width: 1400px;
+}
+
+.titleContainer2 {
+  padding: 10px 0px 0px 0px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+@media only screen and (max-width: 1362px) {
+  .titleContainer {
+    padding: 10px 0px 0px 103px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .singleMonthContainer {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .singleMonthContainer {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .daysContainer2 {
+    min-width: 1000px;
+    max-width: 1000px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .daysContainer2 {
+    min-width: 800px;
+    max-width: 800px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .daysContainer2 {
+    min-width: 500px;
+    max-width: 500px;
+  }
+}
+.modal {
+  position: fixed;
+  margin-left: 274px;
+  margin-top: 130px;
+  width: 450px;
+  height: 164px;
+  border: solid 1px #bbbbbb77;
+  background-color: #ffff;
+}
+
+.modal2 {
+  position: fixed;
+  margin-left: 453px;
+  margin-top: 103px;
+  width: 450px;
+  height: 164px;
+  border: solid 1px #bbbbbb77;
+  background-color: #ffff;
+}
+
+.textArea {
+  font: 14px Roboto, Arial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 384px;
+  height: 60px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  background-color: #d0d0d083;
+}
+
+.textArea2 {
+  font: 14px Roboto, Arial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 384px;
+  height: 60px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  background-color: #d0d0d083;
+}
+
+.submit {
+  font: 14px Roboto, Arial;
+  display: block;
+  margin-top: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.inputClose {
+  font: 25px Roboto, Arial;
+  color: #5ca191c7;
+  display: block;
+  position: fixed;
+  right: 2px;
+  top: 0px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.reminderClose {
+  font: 25px Roboto, Arial;
+  color: #5ca191c7;
+  display: block;
+  position: fixed;
+  margin-left: 422.8px;
+  top: 188px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.reminderClose2 {
+  font: 25px Roboto, Arial;
+  color: #5ca191c7;
+  display: block;
+  position: fixed;
+  margin-left: 422.8px;
+  top: 124px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.notifClose {
+  font: 25px Roboto, Arial;
+  color: #5ca191c7;
+  display: block;
+  position: fixed;
+  right: 2px;
+  top: 0px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.reminderText {
+  font: 14px Roboto, Arial;
+  display: block;
+  margin-left: 15px;
+  padding: 2%;
+}
+
+.reminderText2 {
+  font: 14px Roboto, Arial;
+  display: block;
+  margin-left: 15px;
+  padding: 2%;
+}
+
+.deleteReminder {
+  font: 14px Roboto, Arial;
+  display: block;
+  position: fixed;
+  top: 310px;
+  margin-left: 170px;
+}
+
+.deleteReminder2 {
+  font: 14px Roboto, Arial;
+  display: block;
+  position: fixed;
+  top: 250px;
+  margin-left: 170px;
+}
+
+.viewReminder {
+  font: 14px Roboto, Arial;
+  display: block;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.animateUp {
+  -webkit-animation: moveUp 0.3s cubic-bezier(0, 0, 0, 1) forwards;
+}
+
+@media only screen and (max-width: 1323px) {
+  .modal2 {
+    margin-left: 268px;
+    margin-top: 86px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .modal2 {
+    margin-left: 162px;
+    margin-top: 75.5px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .modal2 {
+    margin-left: 0px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .modal {
+    margin-left: 148px;
+  }
+}
+@media only screen and (max-width: 882px) {
+  .modal {
+    margin-left: 28px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .modal {
+    margin-left: 10px;
+    padding-bottom: 8px;
+    width: 223px;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .textArea {
+    width: 160px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .reminderText {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .reminderText2 {
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .reminderText2 {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 882px) {
+  .reminderClose {
+    margin-left: 412px;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .reminderClose {
+    margin-left: 412px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .reminderClose {
+    margin-left: 196px;
+    top: 131px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .reminderClose2 {
+    top: 107px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .reminderClose2 {
+    top: 97px;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .reminderClose2 {
+    margin-left: 422px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .reminderClose2 {
+    margin-left: 412px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .reminderClose2 {
+    margin-left: 412px;
+  }
+}
+@media only screen and (max-width: 1323px) {
+  .deleteReminder2 {
+    top: 233px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .deleteReminder2 {
+    top: 223px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .deleteReminder {
+    margin-left: 50px;
+    top: 223px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Background Screen Pattern Animations Pattern1 should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Background Screen Pattern Animations Pattern2 should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Background Screen Pattern Animations Pattern3 should render correctly 1`] = `ShallowWrapper {}`;

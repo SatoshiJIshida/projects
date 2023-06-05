@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Level2 Help modal should render correctly 1`] = `ShallowWrapper {}`;

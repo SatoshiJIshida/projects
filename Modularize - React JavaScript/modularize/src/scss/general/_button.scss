@@ -1,0 +1,189 @@
+/// Based on Language Sass from source https://sass-lang.com/documentation
+/// Button style
+.menu-btn {
+  @include animate(color background);
+  font: #{map-get($button, "btn-font-size")}/#{map-get(
+      $button,
+      "btn-line-height"
+    )} #{map-get($base, "base-font")};
+  color: map-get($button, "btn-color");
+  border: 1px solid map-get($button, "btn-color-border");
+  min-width: map-get($button, "btn-width");
+  border-radius: map-get($button, "btn-radius");
+  background: transparent;
+  padding: 30px 5px;
+  margin: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: map-get($button, "btn-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.tip-btn {
+  @include animate(color background);
+  font: #{map-get($tip, "tip-font-size")}/#{map-get($tip, "tip-line-height")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: map-get($tip, "tip-color");
+  border: 1px solid map-get($tip, "tip-color-border");
+  min-width: map-get($tip, "tip-width");
+  border-radius: map-get($tip, "tip-radius");
+  background: transparent;
+  padding: 10px;
+  margin: 7px;
+  cursor: pointer;
+  min-width: 183px;
+
+  &:hover {
+    background: map-get($tip, "tip-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.tip2-btn {
+  @include animate(color background);
+  font: #{map-get($tip, "tip-font-size")}/#{map-get($tip, "tip-line-height")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: map-get($tip, "tip-color");
+  border: 1px solid map-get($tip, "tip-color-border");
+  min-width: map-get($tip, "tip-width");
+  border-radius: map-get($tip, "tip-radius");
+  background: transparent;
+  padding: 10px;
+  margin: 7px;
+  cursor: pointer;
+  min-width: 195px;
+
+  &:hover {
+    background: map-get($tip, "tip-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.side-btn {
+  @include animate(color background);
+  font: #{map-get($tip, "tip-font-size")}/#{map-get($tip, "tip-line-height")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: map-get($tip, "tip-color");
+  border: 1px solid map-get($tip, "tip-color-border");
+  min-width: map-get($button, "btn-width-two");
+  border-radius: map-get($tip, "tip-radius");
+  display: block;
+  background: transparent;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: map-get($tip, "tip-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.bg-btn {
+  background: #{map-get($button, "btn-background")};
+}
+
+.intro-btn {
+  @include animate(color background);
+  font: #{map-get($button, "btn-font-size")}/#{map-get(
+      $button,
+      "btn-line-height"
+    )} #{map-get($base, "base-font")};
+  color: map-get($button, "btn-color");
+  border: 1px solid map-get($button, "btn-color-border");
+  min-width: 288px;
+  border-radius: map-get($button, "btn-radius");
+  background: transparent;
+  padding: 30px 5px;
+  margin-left: 35px;
+  cursor: pointer;
+
+  &:hover {
+    background: map-get($button, "btn-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.pulse-btn {
+  @include animate(color background);
+  font: #{map-get($tip, "tip-font-size")}/#{map-get($tip, "tip-line-height")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: map-get($tip, "tip-color");
+  border: 1px solid map-get($tip, "tip-color-border");
+  min-width: map-get($button, "btn-width-two");
+  border-radius: map-get($tip, "tip-radius");
+  display: block;
+  background: transparent;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+
+  &:hover {
+    background: map-get($tip, "tip-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.stopAnimation {
+  @include animate(color background);
+  font: #{map-get($tip, "tip-font-size")}/#{map-get($tip, "tip-line-height")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: map-get($tip, "tip-color");
+  border: 1px solid map-get($tip, "tip-color-border");
+  min-width: map-get($button, "btn-width-two");
+  border-radius: map-get($tip, "tip-radius");
+  display: block;
+  background: transparent;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: map-get($tip, "tip-color-hover");
+  }
+  &:focus {
+    outline: none;
+  }
+}

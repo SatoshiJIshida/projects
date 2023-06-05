@@ -1,0 +1,62 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+// Fonts
+$base-font: "Roboto", Arial;
+
+// Colors
+$white: #ffff;
+$black: #000;
+$clear: #bbbbbb77;
+$clearBG: #d0d0d083;
+$paleGreen: #5ca191c7;
+$brightGreen: rgba(10, 233, 10, 0.858);
+
+// Headers
+$headings: (
+  "sizes": (
+    "h1-font-size": 50px,
+    "h2-font-size": 35px,
+    "h3-font-size": 25px,
+    "h4-font-size": 20px,
+  ),
+  "fonts": (
+    "headings-font-family": $base-font,
+    "headings-color": $paleGreen,
+  ),
+);
+
+// Body
+$base: (
+  "base-font": $base-font,
+  "base-text-color1": $black,
+  "base-text-color2": $white,
+  "base-text-color3": $paleGreen,
+  "base-text-color4": $clear,
+  "base-font-size1": 16px,
+  "base-font-size2": 14px,
+  "base-line-height1": 24px,
+  "base-line-height2": 20px,
+  "base-line-height3": 10px,
+);
+
+// Buttons
+$button: (
+  "btn-color-hover": $clearBG,
+  "btn-width1": 31px,
+  "btn-height1": 25px,
+  "btn-width2": 180px,
+  "btn-height2": 90px,
+  "btn-bg1": $brightGreen,
+  "btn-bg2": rgba(232, 232, 232, 0.637),
+  "btn-bg3": rgba(216, 216, 216, 0.637),
+  "btn-bg4": $white,
+);
+
+// Modals
+$modal: (
+  "modal-bg": $white,
+  "modal-input-bg": $clearBG,
+  "modal-close": $white,
+  "modal-border": solid 1px $clear,
+);

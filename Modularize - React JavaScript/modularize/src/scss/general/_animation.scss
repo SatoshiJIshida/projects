@@ -1,0 +1,110 @@
+.moveUp1 {
+  animation-duration: 1s;
+  animation-name: slideUp;
+}
+
+.moveUp2 {
+  animation-duration: 1.5s;
+  animation-name: slideUp;
+}
+
+@keyframes slideUp {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+.moveLeft {
+  animation-duration: 1s;
+  animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.moveRight {
+  animation-duration: 1s;
+  animation-name: slideRight;
+}
+
+@keyframes slideRight {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.bounce {
+  animation: bounce 0.5s infinite alternate;
+  -webkit-animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-3px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-3px);
+  }
+}
+
+.fadeIn1 {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+
+.fadeIn2 {
+  animation-duration: 1.5s;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeRepeat {
+  animation-duration: 1s;
+  animation-name: fadeRepeat;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: $turquoise;
+}
+
+@keyframes fadeRepeat {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}

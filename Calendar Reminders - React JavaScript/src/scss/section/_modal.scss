@@ -1,0 +1,331 @@
+// modal container.
+.modal {
+  position: fixed;
+  margin-left: 274px;
+  margin-top: 130px;
+  width: 450px;
+  height: 164px;
+  border: #{map-get($modal, "modal-border")};
+  background-color: #{map-get($modal, "modal-bg")};
+}
+
+// modal container - for single month view.
+.modal2 {
+  position: fixed;
+  margin-left: 453px;
+  margin-top: 103px;
+  width: 450px;
+  height: 164px;
+  border: #{map-get($modal, "modal-border")};
+  background-color: #{map-get($modal, "modal-bg")};
+}
+
+// input modal text area.
+.textArea {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 384px;
+  height: 60px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  background-color: #{map-get($modal, "modal-input-bg")};
+}
+
+// input modal text area - single month view.
+.textArea2 {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 384px;
+  height: 60px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  background-color: #{map-get($modal, "modal-input-bg")};
+}
+
+// submit button.
+.submit {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  margin-top: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+// input modal close button.
+.inputClose {
+  font: #{map-get($headings, "sizes", "h3-font-size")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: #{map-get($base, "base-text-color3")};
+  display: block;
+  position: fixed;
+  right: 2px;
+  top: 0px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+// reminder modal close button.
+.reminderClose {
+  font: #{map-get($headings, "sizes", "h3-font-size")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: #{map-get($base, "base-text-color3")};
+  display: block;
+  position: fixed;
+  margin-left: 422.8px;
+  top: 188px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+// reminder modal close button - single month view.
+.reminderClose2 {
+  font: #{map-get($headings, "sizes", "h3-font-size")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: #{map-get($base, "base-text-color3")};
+  display: block;
+  position: fixed;
+  margin-left: 422.8px;
+  top: 124px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+// notification modal close button.
+.notifClose {
+  font: #{map-get($headings, "sizes", "h3-font-size")} #{map-get(
+      $base,
+      "base-font"
+    )};
+  color: #{map-get($base, "base-text-color3")};
+  display: block;
+  position: fixed;
+  right: 2px;
+  top: 0px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+// reminder text - year view.
+.reminderText {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  margin-left: 15px;
+  padding: 2%;
+}
+
+// reminder text - month view.
+.reminderText2 {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  margin-left: 15px;
+  padding: 2%;
+}
+
+// delete reminder button.
+.deleteReminder {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  position: fixed;
+  top: 310px;
+  margin-left: 170px;
+}
+
+// delete reminder button - single month view.
+.deleteReminder2 {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  position: fixed;
+  top: 250px;
+  margin-left: 170px;
+}
+
+// view reminder button in notification.
+.viewReminder {
+  font: #{map-get($base, "base-font-size2")} #{map-get($base, "base-font")};
+  display: block;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// animation for modals.
+@keyframes moveUp {
+  0% {
+    transform: translateY(150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animateUp {
+  -webkit-animation: moveUp 0.3s cubic-bezier(0, 0, 0, 1) forwards;
+}
+
+// Media Queries //
+// modal container - for single month view.
+@media only screen and (max-width: 1323px) {
+  .modal2 {
+    margin-left: 268px;
+    margin-top: 86px;
+  }
+}
+// modal container - for single month view.
+@media only screen and (max-width: 1043px) {
+  .modal2 {
+    margin-left: 162px;
+    margin-top: 75.5px;
+  }
+}
+// modal container - for single month view.
+@media only screen and (max-width: 835px) {
+  .modal2 {
+    margin-left: 0px;
+    width: 440px;
+  }
+}
+
+// modal container.
+@media only screen and (max-width: 1120px) {
+  .modal {
+    margin-left: 148px;
+  }
+}
+// modal container.
+@media only screen and (max-width: 882px) {
+  .modal {
+    margin-left: 28px;
+    width: 440px;
+  }
+}
+// modal container.
+@media only screen and (max-width: 630px) {
+  .modal {
+    margin-left: 10px;
+    padding-bottom: 8px;
+    width: 223px;
+    top: 0;
+  }
+}
+
+// input modal text area.
+@media only screen and (max-width: 630px) {
+  .textArea {
+    width: 160px;
+  }
+}
+
+// reminder text - year view
+@media only screen and (max-width: 630px) {
+  .reminderText {
+    margin-left: 20px;
+  }
+}
+
+// reminder text - month view.
+@media only screen and (max-width: 1043px) {
+  .reminderText2 {
+    margin-left: 15px;
+  }
+}
+// reminder text - month view
+@media only screen and (max-width: 835px) {
+  .reminderText2 {
+    margin-left: 10px;
+  }
+}
+
+// reminder modal close button - year view.
+@media only screen and (max-width: 882px) {
+  .reminderClose {
+    margin-left: 412px;
+  }
+}
+// reminder modal close button - year view.
+@media only screen and (max-width: 867px) {
+  .reminderClose {
+    margin-left: 412px;
+  }
+}
+// reminder modal close button - year view.
+@media only screen and (max-width: 630px) {
+  .reminderClose {
+    margin-left: 196px;
+    top: 131px;
+  }
+}
+
+// reminder modal close button - single month view.
+@media only screen and (max-width: 1323px) {
+  .reminderClose2 {
+    top: 107px;
+  }
+}
+// reminder modal close button - single month view.
+@media only screen and (max-width: 1043px) {
+  .reminderClose2 {
+    top: 97px;
+  }
+}
+// reminder modal close button - single month view.
+@media only screen and (max-width: 867px) {
+  .reminderClose2 {
+    margin-left: 422px;
+  }
+}
+// reminder modal close button - single month view.
+@media only screen and (max-width: 835px) {
+  .reminderClose2 {
+    margin-left: 412px;
+  }
+}
+// reminder modal close button - single month view.
+@media only screen and (max-width: 630px) {
+  .reminderClose2 {
+    margin-left: 412px;
+  }
+}
+
+// delete reminder button - single month view.
+@media only screen and (max-width: 1323px) {
+  .deleteReminder2 {
+    top: 233px;
+  }
+}
+// delete reminder button - single month view.
+@media only screen and (max-width: 1043px) {
+  .deleteReminder2 {
+    top: 223px;
+  }
+}
+
+// delete reminder button - year view.
+@media only screen and (max-width: 630px) {
+  .deleteReminder {
+    margin-left: 50px;
+    top: 223px;
+  }
+}

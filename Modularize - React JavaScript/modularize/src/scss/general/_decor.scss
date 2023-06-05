@@ -1,0 +1,11 @@
+/// Decor style
+.base-bg {
+  position: relative;
+  /// background: url(#{$imgPath}/homeBG.jpeg) no-repeat center;
+  background: linear-gradient(
+    to right,
+    rgba(244, 191, 221, 0.85),
+    rgba(245, 244, 203, 0.85),
+    rgba(175, 245, 229, 0.85)
+  );
+}

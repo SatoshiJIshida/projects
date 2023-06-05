@@ -1,0 +1,106 @@
+// year title container.
+.titleContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  padding: 10px 0px 0px 94px; // top/right/bottom/left
+}
+
+// YEAR VIEW.
+// calendar container.
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  max-width: 1100px;
+  // border: solid 1px;
+  padding: 10px 0px 0px 95px; // top/right/bottom/left
+}
+
+// month container.
+.monthContainer {
+  padding: 5px 10px 10px 10px;
+}
+
+// days container
+.daysContainer {
+  min-width: 230px;
+  max-width: 230px;
+}
+
+// MONTH VIEW.
+// calendar container - single month view.
+.singleMonthOuter {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+// container for single month view days and dates block.
+.singleMonthContainer {
+  margin-top: 30px;
+}
+
+// days container - single month view.
+.daysContainer2 {
+  min-width: 1400px;
+  max-width: 1400px;
+}
+
+// title container for single month view.
+.titleContainer2 {
+  padding: 10px 0px 0px 0px; // top/right/bottom/left
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+// Media Queries //
+// year title container.
+@media only screen and (max-width: 1362px) {
+  .titleContainer {
+    padding: 10px 0px 0px 103px; // top/right/bottom/left
+  }
+}
+
+// container for single month view days and dates block.
+@media only screen and (max-width: 1323px) {
+  .singleMonthContainer {
+    margin-top: 20px;
+  }
+}
+// container for single month view days and dates block.
+@media only screen and (max-width: 1043px) {
+  .singleMonthContainer {
+    margin-top: 15px;
+  }
+}
+
+// days container - single month view.
+@media only screen and (max-width: 1323px) {
+  .daysContainer2 {
+    min-width: 1000px;
+    max-width: 1000px;
+  }
+}
+// days container - single month view.
+@media only screen and (max-width: 1043px) {
+  .daysContainer2 {
+    min-width: 800px;
+    max-width: 800px;
+  }
+}
+// days container - single month view.
+@media only screen and (max-width: 835px) {
+  .daysContainer2 {
+    min-width: 500px;
+    max-width: 500px;
+  }
+}

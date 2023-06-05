@@ -1,0 +1,245 @@
+/// Based on Language Sass from source https://sass-lang.com/documentation
+/// Common style
+body {
+  margin: 0 !important;
+}
+
+.page {
+  @include font-smoothing(on);
+  color: map-get($base, "base-text-color");
+  font: map-get($base, "base-font-size") /#{map-get($base, "base-line-height")}/#{map-get(
+      $base,
+      "base-font"
+    )};
+  max-width: 1440px;
+  min-width: 1440px;
+}
+
+.home-container {
+  padding: 178px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help-container {
+  padding: 127px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-container {
+  padding: 84px;
+  margin-left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.h1-container {
+  padding: 25px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.base-container {
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.h1-container2 {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.h1-container3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.base-two-container {
+  padding: 0px 20px 0px 20px; // top/right/bottom/left
+  margin-top: 19px;
+  margin-bottom: 15px;
+  width: 600px;
+  // text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.text-two-container {
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 600px;
+  min-height: 249px;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.tip-container {
+  padding-top: 12px;
+  padding-left: 7px;
+  position: absolute;
+}
+
+.tip2-container {
+  padding-top: 12px;
+  padding-left: 0px;
+  position: absolute;
+}
+
+.tip-within {
+  padding-top: 20px;
+}
+
+.level-container {
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.level-two-container {
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.level-three-container {
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.menu-container {
+  padding-top: 5px;
+  position: absolute;
+  left: 81%;
+}
+
+.menu2-container {
+  margin-top: 325px;
+  position: absolute;
+  left: 81%;
+}
+
+.transition-container {
+  padding-top: 21px;
+  padding-bottom: 63px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-container {
+  padding-top: 21px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timerEnds-container {
+  padding: 191px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-container {
+  display: block;
+  text-align: center;
+}
+
+.center {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.name {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    rgba(241, 240, 240, 0.61),
+    rgba(255, 255, 255, 0.61)
+  );
+}
+
+.imgContain {
+  height: 510px;
+  border-bottom: 1px solid map-get($modal, "modal-color-border");
+  border-left: 1px solid map-get($modal, "modal-color-border");
+  border-right: 1px solid map-get($modal, "modal-color-border");
+}
+
+.imgContain2 {
+  height: 511px;
+  border-bottom: 1px solid map-get($modal, "modal-color-border");
+  border-left: 1px solid map-get($modal, "modal-color-border");
+  border-right: 1px solid map-get($modal, "modal-color-border");
+}
+
+.imgContain3 {
+  height: 505px;
+  border-bottom: 1px solid map-get($modal, "modal-color-border");
+  border-left: 1px solid map-get($modal, "modal-color-border");
+  border-right: 1px solid map-get($modal, "modal-color-border");
+}
