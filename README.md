@@ -4,10 +4,7 @@
 Software Engineer (Full-Stack)\
 JavaScript, TypeScript, React, Redux, Node, Java, Spring Boot, Python, PHP, SQL, NoSQL,
 Sass/Less/CSS, HTML.
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0048b47f-c54d-4f5d-b4d8-d92472542093" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="705ab573-04b0-4f05-90ea-c80a48283ae8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<br>
+<br><br>
 
 [Java Coding Challenges](https://github.com/SatoshiJIshida/projects/tree/main/Java%20-%20Coding%20Challenges)
 
